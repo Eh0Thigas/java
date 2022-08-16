@@ -10,6 +10,7 @@ public class TipoDados {
         double salario = 1275.33;
         String nome = "Devervenson";
 
+        //CAIXA DE MENSAGEM 
         JOptionPane.showMessageDialog(null,"\nNome: " + nome +
         "\nIdade: " + idade + 
         "\nAno: " + ano +
@@ -17,6 +18,9 @@ public class TipoDados {
         "\nCPF: " + cpf +
         "\nSalario: " + salario +
         "\nPi: " + pi + "\n");
+        
+        //TERMINAL
+
         System.out.println("\nNome:" + nome );
         System.out.println("Idade:" + idade );
         System.out.println("Ano:" + ano );
