@@ -1,5 +1,7 @@
 public class TipoDados(){
+    
     public static void main(String[] args) {
+        
         byte idade = 20;
         short ano = 2022;
         int cep = 14095070;
@@ -8,7 +10,8 @@ public class TipoDados(){
         double salario = 1275.33;
         String nome = "Devervenson";
         
-        System.out.println(null,idade);
+        System.out.println(idade);
+        System.out.println(ano);
 
     }
 
