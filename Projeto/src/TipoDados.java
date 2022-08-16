@@ -9,6 +9,7 @@ public class TipoDados {
         float pi = 3.14F;
         double salario = 1275.33;
         String nome = "Devervenson";
+        
 
         //CAIXA DE MENSAGEM 
         JOptionPane.showMessageDialog(null,"\nNome: " + nome +
@@ -27,5 +28,13 @@ public class TipoDados {
         System.out.println("CPF:" + cpf );
         System.out.println("Salario:" + salario );
         System.out.println("Pi:" + pi+ "\n");
+
+        int numero = 5;
+        System.out.println(numero);
+        numero = 10;
+        System.out.println(numero);
+
+        final double VALOR_DE_PI = 3.14;
+        //VALOR_DE_PI = 3.15;
     }
 }
