@@ -20,7 +20,6 @@ public class TipoDados {
         "\nPi: " + pi + "\n");
         
         //TERMINAL
-
         System.out.println("\nNome:" + nome );
         System.out.println("Idade:" + idade );
         System.out.println("Ano:" + ano );
