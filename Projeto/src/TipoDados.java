@@ -1,0 +1,28 @@
+import javax.swing.JOptionPane;
+
+public class TipoDados {
+    public static void main(String[]args){
+        byte idade = 20;
+        short ano = 2022;
+        int cep = 14095070;
+        String cpf = "48551201472";
+        float pi = 3.14F;
+        double salario = 1275.33;
+        String nome = "Devervenson";
+
+        JOptionPane.showMessageDialog(null,"\nNome: " + nome +
+        "\nIdade: " + idade + 
+        "\nAno: " + ano +
+        "\nCEP: " + cep +
+        "\nCPF: " + cpf +
+        "\nSalario: " + salario +
+        "\nPi: " + pi + "\n");
+        System.out.println("\nNome:" + nome );
+        System.out.println("Idade:" + idade );
+        System.out.println("Ano:" + ano );
+        System.out.println("CEP:" + cep );
+        System.out.println("CPF:" + cpf );
+        System.out.println("Salario:" + salario );
+        System.out.println("Pi:" + pi+ "\n");
+    }
+}
