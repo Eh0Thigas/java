@@ -24,7 +24,7 @@ public class Operadores {
         char sexo = 'm';
         boolean doadorOrgao = false;
         Date datadenascimento = newDate();
-        */ 
+         
         String nome = "Thiago";
         int idade = 20;
         double peso = 40.3;
