@@ -150,6 +150,15 @@ public class TipoDados {
         System.out.println("\n");
         System.out.println(f4);
         System.out.println(i4);
+        System.out.println("\n");
+
+        // Dividindo com inteiros 1/2 vai dar 0
+        int h1 = 1 , h2 = 2;
+        System.out.println(h1/h2);
+
+        // Dividindo com double 1/2 vai dar 0.5
+        double h3 = 1, h4 = 2;
+        System.out.println(h3/h4);
 
     }
 }
