@@ -1,6 +1,7 @@
+package dia16_08;
 import javax.swing.JOptionPane;
 
-public class dia16_08 {
+public class primeiraaula {
     public static void main(String[] args) {
         //  TERÇA FEIRA; DIA 16/08/2022
         byte idade = 20;
