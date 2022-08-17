@@ -76,6 +76,7 @@ public class TipoDados {
         boolean bo2 = false;
 
         System.out.println(st1);
+        System.out.println(c3);
 
 
     }
