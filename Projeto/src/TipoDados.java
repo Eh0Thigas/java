@@ -81,6 +81,7 @@ public class TipoDados {
 
         System.out.println(st1);
         System.out.println(c3);
+        System.out.println((int)c1);
 
         for(int i = 0; i <= 10; i++){
             System.out.println("\n"+ st1 + " tem " + b1 + " reais na conta");
