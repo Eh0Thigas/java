@@ -31,7 +31,7 @@ public class Operadores {
         char sexo = 'm';
         boolean doadorOrgao = false;
          
-        /* OPERADORES ARITIMETICOS
+         OPERADORES ARITIMETICOS
           são eles : + (adição); - (subtração); * (multiplicação); / (divisão); % (modulo)
 
           adição para variaveis do tipo texto concatenação
@@ -42,8 +42,52 @@ public class Operadores {
           concatenacao4 = 1+1+1+"1";  1111
           concatenacao5 = 1+(1+1+1);  13
 
+          += ( quando usa += significa q o ultimo valor da variavel mais outro numero)
+          EX:  c = 2;
+               c +=3; 
+               entao fica 
+               c = c + 3;
+               c = 2 + 3
+               c = 5;
+          
+          -= ( quando usa -= significa q o ultimo valor da variavel menos outro numero)
+          EX:  c = 3;
+               c -=2; 
+               entao fica 
+               c = c - 2;
+               c = 3 - 2
+               c = 1;
+          
+          *= ( quando usa *= significa q o ultimo valor da variavel vezes outro numero)
+          EX:  c = 2;
+               c *=3; 
+               entao fica 
+               c = c * 3;
+               c = 2 * 3
+               c = 6;
+
+          /= ( quando usa /= significa q o ultimo valor da variavel dividido por outro numero)
+          EX:  c = 6;
+               c /=2; 
+               entao fica 
+               c = c / 2;
+               c = 6 / 2;
+               c = 3;
+
+
+
+
+        OPERADORES UNARIOS
+
+        (+) numeros positivos 
+        (-) numeros negativos
+        (++) incremento
+        (--) decremento
+        (!) logico de negacao EX: boolean mentiroso = true;  !mentiroso; vai dar false
          
         */
+
+    
         
         
 

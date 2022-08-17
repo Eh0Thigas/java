@@ -10,6 +10,8 @@ public class OperadoresEX {
         atribuicao();
         System.out.println("\nPRECEDENCIA");
         precedencia();
+        System.out.println("\nNEGATIVO");
+        negativo();
     }
 
     private static void prePos(){
@@ -110,7 +112,16 @@ public class OperadoresEX {
         int c = 2;
         c *= i += 5; // c = 2 * i; i = 1 + 5 -> c = 2 * i; i = 10 + 5; c = 2 * 15; c = 30
         System.out.println(c);
-
-
     }
+
+    private static void negativo(){
+        int numero = 5;
+        System.out.println(numero);
+
+        numero = - numero;
+        System.out.println(numero);
+
+        numero  = numero * -1;
+        System.out.println(numero);
+     }
 }
