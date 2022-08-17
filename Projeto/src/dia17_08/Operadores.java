@@ -16,7 +16,7 @@ public class Operadores {
         ternarios
         
 
-        operador de atribuição 
+        OPERADOR DE ATRIBUIÇÃO
         simbolo de igualdade ( = )
         String nome = "Thiago"
         int idade = 20;
@@ -31,8 +31,24 @@ public class Operadores {
         char sexo = 'm';
         boolean doadorOrgao = false;
          
+        /* OPERADORES ARITIMETICOS
+          são eles : + (adição); - (subtração); * (multiplicação); / (divisão); % (modulo)
 
+          adição para variaveis do tipo texto concatenação
+          String nomeCompleto = "Shirlei" + "Maria";
+          concatenacao1 = 1+1+1+"1";
+          concatenacao2 = "1"+1+1+1;  1111
+          concatenacao3 = 1+"1"+1+"1";  1111
+          concatenacao4 = 1+1+1+"1";  1111
+          concatenacao5 = 1+(1+1+1);  13
+
+         
+        */
+        
         
 
+
     }
+
+
 }
