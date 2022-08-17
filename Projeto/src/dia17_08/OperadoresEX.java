@@ -2,13 +2,13 @@ package dia17_08;
 
 public class OperadoresEX {
     public static void main(String[] args) {
-        System.out.println("Prepos");
+        System.out.println("PREPOS");
         prePos();
-        System.out.println("\nAritimetico");
+        System.out.println("\nARITIMETICO");
         aritimetico();
-        System.out.println("\nAtribuição");
+        System.out.println("\nATRIBUIÇÃO");
         atribuicao();
-        System.out.println("\nPrecedencia");
+        System.out.println("\nPRECEDENCIA");
         precedencia();
     }
 
