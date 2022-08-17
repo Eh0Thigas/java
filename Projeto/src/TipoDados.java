@@ -34,7 +34,8 @@ public class TipoDados {
         numero = 10;
         System.out.println(numero);
 
-        final double VALOR_DE_PI = 3.14;
+        //final double VALOR_DE_PI = 3.14;
         //VALOR_DE_PI = 3.15;
+
     }
 }
