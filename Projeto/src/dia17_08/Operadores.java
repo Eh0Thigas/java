@@ -83,6 +83,14 @@ public class Operadores {
         (-) numeros negativos
         (++) incremento
         (--) decremento
+        OBS: a ordem do incremento ou decremento importam na ordem 
+          Ex:
+          i++;  o valor de i vai ser incrementado depois 
+          ++i; agr ele ira incrementar antes 
+          A mesma coisa com o decremento 
+          i--;  o valor de i vai ser decrementado depois 
+          --i; agr ele ira decrementar  antes 
+
         (!) logico de negacao EX: boolean mentiroso = true;  !mentiroso; vai dar false
          
         */
