@@ -154,7 +154,7 @@ public class TipoDados {
         System.out.println("\n");
 
         // Dividindo com inteiros 1/2 vai dar 0
-        int h1 = 1 , h2 = 2;
+        int h1 = 5 , h2 = 4;
         System.out.println(h1/h2);
 
         // Dividindo com double 1/2 vai dar 0.5
