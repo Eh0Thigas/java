@@ -26,9 +26,15 @@ public class repeticao {
             e o codigo que esta aqui dentro repetira até a condição de parada ser atendida
          } 
          */
-
+         // Exemplo onde o for vai d i = 0 até 99 pois i < 100
+         // e dentro do for colocamos uma condição que
+         //quando chegar entre 50 e 60 o laço de repetição nao 
+         // imprimira os numeros dentro do intervalo
          for(int i = 0; i < 100; i++){
-            
+            if(i > 50 && i < 60){
+                continue; // se o numero dar entre 50 e 60 ele não imprime ele continua a contagem
+            }
+            System.out.println(i);
          }
     }
 }
