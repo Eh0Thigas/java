@@ -26,5 +26,14 @@ public class condicional {
             System.out.println("condição falsa");
         }
 
+        //-------------------------------------------------------------------------------
+
+        //String empresa1 = "Funtec";
+        //String empresa2 = new String("Piso");
+
+        //equals = empresa1.equals(empresa2);
+        //System.out.println(equals);
+
+
     }
 }
