@@ -101,7 +101,7 @@ public class condicional {
         }
 
 
-        */
+        
         //-------------------------------------------------------------------------------
         // Exercicio
         Scanner s = new Scanner(System.in);
@@ -115,5 +115,6 @@ public class condicional {
         }else{
             System.out.println("Autorizado a assinar");
         }
+        */
     }
 }
