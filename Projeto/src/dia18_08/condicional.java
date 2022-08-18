@@ -72,12 +72,8 @@ public class condicional {
 
         
         if(TitularVef.equals(Titular) && BancoVef.equals(Banco)){
-            System.out.println("Banco " + Banco + "\n" + "Bem vindo " + Titular);
-        }else{
-            System.out.println("Acesso Negado");
-        }
-
-        System.out.println("\nQuanto você quer retirar? ");
+            System.out.println("\nBanco " + Banco + " ----- " + "Bem vindo " + Titular);
+            System.out.println("\nQuanto você quer retirar? ");
         Retirada = s.nextDouble();
         
         if(Retirada < SaldoInicial){
@@ -90,6 +86,14 @@ public class condicional {
         }
 
 
+        }else{
+            System.out.println("Acesso Negado");
+        }
+
+        
+        if(Titular.equals("jailson") && Banco == "Itau"){
+            System.out.println("Condição ok");
+        }
 
 
 
