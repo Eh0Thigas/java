@@ -2,7 +2,7 @@ package dia18_08;
 import java.util.Scanner;
 public class condicional {
     public static void main(String[] args){
-        Scanner s = new Scanner(System.in);
+        
         
         int numero1 = 1, numero2 = 2;
 
@@ -104,7 +104,7 @@ public class condicional {
         */
         //-------------------------------------------------------------------------------
         // Exercicio
-
+        Scanner s = new Scanner(System.in);
         System.out.println("Qual a sua idade? ");
         int idade = s.nextInt();
         
