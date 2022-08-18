@@ -93,6 +93,20 @@ public class Operadores {
 
         (!) logico de negacao EX: boolean mentiroso = true;  !mentiroso; vai dar false
          
+
+
+        OPERADORES TERNARIOS 
+        Expressões sempre boolean e ver se torna um true ou false 
+        EX:
+        String resultado = (a==b) ? "verdadeiro" : "false";
+        System.out.println(resultado);
+
+
+        OPERADORES RELACIONAIS
+        Esses operadores avaliam a relação e a condição entre duas variaveis 
+        vendo se o da esquerda é maior, menor, igual, diferente e resultam em true ou false;
+
+        
         */
 
     
