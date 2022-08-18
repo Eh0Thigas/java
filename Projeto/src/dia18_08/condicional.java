@@ -58,45 +58,62 @@ public class condicional {
          */
         //-------------------------------------------------------------------------------
         //Exercicio 
+        /* 
+        // Criação das variavies
         String Banco = "Itau";
         String Titular  = "jailson";
         double SaldoInicial = 234.56;
         double Retirada;
         double SaldoFinal;
 
+        // ENtrada de dados pelo terminal
         System.out.println("\nQual o nome do titular? ");
         String TitularVef = s.nextLine();
         System.out.println("\nQual o nome do Banco? ");
         String BancoVef = s.nextLine();
         
-
+        //Verificação dos dados obtido
         
-        if(TitularVef.equals(Titular) && BancoVef.equals(Banco)){
+        if(TitularVef.equals(Titular) && BancoVef.equals(Banco)){  // Se nome do titular e nome do banco corretos
+            
             System.out.println("\nBanco " + Banco + " ----- " + "Bem vindo " + Titular);
-            System.out.println("\nQuanto você quer retirar? ");
-        Retirada = s.nextDouble();
-        
-        if(Retirada < SaldoInicial){
-            System.out.println("Retirada com Sucesso");
-            SaldoFinal = SaldoInicial - Retirada;
-            System.out.println("Saldo final de " + SaldoFinal );
-        }else{
-            System.out.println("Retirada Negada por falta de saldo");
-            System.out.println("Seu saldo é de " + SaldoInicial);
-        }
+            //Entrada de dados para a retirada do dinheirp
+            System.out.println("\nQuanto você quer retirar? "); 
+            Retirada = s.nextDouble();
+            //verificação se o valor da retirada é menor que o saldo 
+            if(Retirada < SaldoInicial){
+                System.out.println("Retirada com Sucesso");
+                SaldoFinal = SaldoInicial - Retirada;
+                System.out.println("Saldo final de " + SaldoFinal );
+            }else{ // se não 
+                System.out.println("Retirada Negada por falta de saldo");
+                System.out.println("Seu saldo é de " + SaldoInicial);
+            }
 
 
-        }else{
+        }else{ // se não 
             System.out.println("Acesso Negado");
         }
 
-        
+        // o que a professora fez  
         if(Titular.equals("jailson") && Banco == "Itau"){
             System.out.println("Condição ok");
         }
 
 
+        */
+        //-------------------------------------------------------------------------------
+        // Exercicio
 
+        System.out.println("Qual a sua idade? ");
+        int idade = s.nextInt();
+        
+        boolean paipresente = false;
 
+        if(idade < 18 && !paipresente){
+            System.out.println("Precisa da presença dos pais");
+        }else{
+            System.out.println("Autorizado a assinar");
+        }
     }
 }
