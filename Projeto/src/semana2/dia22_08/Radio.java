@@ -35,4 +35,8 @@ public class Radio {
         bluetooth = true;
     }
 
+    public void Normal(){
+        bluetooth = false;
+    }
+
 }
