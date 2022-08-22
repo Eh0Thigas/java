@@ -1,4 +1,10 @@
-/*
+
+         package dia22_08;
+
+         public class aprendendoClasse {
+            public static void main(String[] args) {
+                
+                /*
          * Sempre que criamos um arquivo java, ira vir ja pé definido com 
          * o nome da classe
          *  e devera ser sempre em Maisculo a primeira letra
@@ -15,4 +21,23 @@
          * 
          * é indicado que nos projetos tenha somente uma classe que tenha esse 
          * metodo main
+         * 
+         * 
+         * ----------------------------------------------------------------------------------------
+         * 
+         *  PACKAGES  
+         * 
+         * os packages são os pacotes onde nossas classes irao ficar salvas e 
+         * organizadas 
+         * 
+         * EX : 
+         *      > exemplo
+         *        tanannam.java 
+         *        tururu.java
+         *        terere.java
+         * 
+         * 
          */
+
+            }
+         }
