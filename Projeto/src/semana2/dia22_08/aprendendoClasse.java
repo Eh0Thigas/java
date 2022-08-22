@@ -48,6 +48,30 @@
          *          }
          * 
          * ----------------------------------------------------------------------------------------
+         * 
+         * METODOS 
+         *  os metodos são as ações do nosso codigo 
+         * perguntas sobre metodos 
+         * 1 - QUal a proposta principal do metodo?
+         * 2 - Qual o tipo de retorno esperado apos executar o metodo?
+         * 3 - QUal os parametros serão necessarios para a execução do metodo?
+         * 4 - O metodo possui o risco de apresentar alguma exeção?
+         * 5 - Qual a visibilidade do metodo?
+         * 
+         * 
+         * Ex:
+         * 
+         * public class MyClass{
+         * 
+         *  public double soma(int num1 , int num2){
+         *     //LOGICA - 
+         *     return num1 + num2;
+         *  }
+         * 
+         *  public void imprimir(){
+         *     System.out.println();
+         *  }
+         * }
          */
 
             }
