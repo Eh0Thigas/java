@@ -36,7 +36,18 @@
          *        tururu.java
          *        terere.java
          * 
+         * e no codigo fonte colocamos ou ja vem definido 
+         *          
+         *          package 22_08;
          * 
+         *          public class aprendendoClasse {
+         *              public static void main(String[] args){
+         * 
+         * 
+         *              }
+         *          }
+         * 
+         * ----------------------------------------------------------------------------------------
          */
 
             }
