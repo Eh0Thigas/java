@@ -1,4 +1,4 @@
-package semana2.dia22_08;
+package semana2.dia22_08.Radio;
 
 import java.util.Scanner;
 
