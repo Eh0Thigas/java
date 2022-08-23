@@ -31,11 +31,12 @@ public class Salario {
         System.out.println("Quanto a/o " + vendas.vendedor + " vendeu de " + vendas.produto + "?");
         vendas.qntVendas = s.nextInt();
 
+        // CHAMANDO OS METODOS 
         vendas.TotalVendas();
         vendas.Comissao();
         vendas.CalSalario();
 
-        // Imprimindo as informações 
+        // IMPRIMINDO INFORMAÇÕES
 
         System.out.println("\n--- Informações ---");
         System.out.println("Nome funcionario: " + vendas.vendedor);
