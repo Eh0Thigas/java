@@ -152,7 +152,7 @@ public class PalavrasReservadas {
 
                 short: um inteiro de 32 bits (signed)
 
-                Variáveis de referência
+            Variáveis de referência
                 super: refere-se a superclasse imediata
 
                 this: refere-se a instância atual do objeto
@@ -164,6 +164,10 @@ public class PalavrasReservadas {
                 const: Não utilize para declarar constantes; use public static final
 
                 goto: não implementada na linguagem Java por ser considerada prejudicial
+
+
+
+                https://docs.oracle.com/javase/7/docs/api/index.html
          * 
          */
     }
