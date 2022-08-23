@@ -32,11 +32,19 @@ public class Salario {
         vendas.qntVendas = s.nextInt();
 
         vendas.TotalVendas();
-        System.out.println(vendas.totalVendas);
         vendas.Comissao();
-        System.out.println(vendas.comissao);
         vendas.CalSalario();
-        System.out.println(vendas.salario);
+
+        // Imprimindo as informações 
+
+        System.out.println("\n----- Informações ---");
+        System.out.println("Nome funcionario: " + vendas.vendedor);
+        System.out.println("Salario fixo: " + vendas.salariofixo);
+        System.out.println("Quantidade de vendas de " + vendas.produto + ": " + vendas.qntVendas);
+        System.out.println("Valor de " + vendas.produto + ": " + vendas.vlrProduto);
+        System.out.println("Valor total de vendas de " + vendas.produto + ": " + vendas.totalVendas);
+        System.out.println("Comissão do/da " + vendas.vendedor + ": " + vendas.comissao);
+        System.out.println("Salario final nesse mes do " + vendas.vendedor + ": " + vendas.salario + "\n ");
 
         
        
