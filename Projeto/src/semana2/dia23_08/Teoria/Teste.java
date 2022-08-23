@@ -7,8 +7,9 @@ import javax.swing.JOptionPane;
 public class Teste {
     public static void main(String[] args) {
         
-        String str_n1; 
-        str_n1 = JOptionPane.showInputDialog("Primeiro número: ");
+         
+        String str_n1 = JOptionPane.showInputDialog("Primeiro número: ");
+        System.out.println(str_n1);
 
        
         JOptionPane.showConfirmDialog(null,
