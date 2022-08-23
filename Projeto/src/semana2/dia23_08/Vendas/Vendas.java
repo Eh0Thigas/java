@@ -2,7 +2,7 @@ package semana2.dia23_08.Vendas;
 
 public class Vendas {
     String vendedor, produto;
-    double vlrProduto, salario , comissao;
+    double vlrProduto, salario, salariofixo, comissao;
     int qntVendas;
 
     public double CalComissao(int qntVendas, double vlrProduto){
@@ -10,8 +10,8 @@ public class Vendas {
         return comissao;
     }
 
-    public double CalSalario(double comissao){
-        salario = salario + comissao;
+    public double CalSalario(double comissao , double salariofixo){
+        salario = salariofixo + comissao;
         return salario;
     }
 
