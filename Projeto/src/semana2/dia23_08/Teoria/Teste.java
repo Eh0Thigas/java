@@ -1,6 +1,6 @@
 package semana2.dia23_08.Teoria;
 
-import java.awt.Component;
+
 
 import javax.swing.JOptionPane;
 
@@ -15,6 +15,6 @@ public class Teste {
         "please choose one", "information",
         JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
 
-        
+
     }
 }
