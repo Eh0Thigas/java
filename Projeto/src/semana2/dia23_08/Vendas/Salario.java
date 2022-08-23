@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class Salario {
     public static void main(String[] args) {
         
+        //CHAMANDO METODOS DE SCANNER
         Scanner s = new Scanner(System.in); 
         Scanner c = new Scanner(System.in);
+
+        //CHAMANDO A CLASSE VENDAS.JAVA
         Vendas vendas = new Vendas();  
         
         System.out.println(" --- Registrados de Vendas ---");
@@ -37,7 +40,6 @@ public class Salario {
         vendas.CalSalario();
 
         // IMPRIMINDO INFORMAÇÕES
-
         System.out.println("\n--- Informações ---");
         System.out.println("Nome funcionario: " + vendas.vendedor);
         System.out.println("Salario fixo: " + vendas.salariofixo);
