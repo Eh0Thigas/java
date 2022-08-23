@@ -6,7 +6,7 @@ public class usando {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Radio caixinha = new Radio();
-        String pause;
+        String status;
 
         System.out.println("A caixinha de som está: "+ caixinha.ligada);
         System.out.println("Volume está em: " + caixinha.volume);
@@ -19,10 +19,17 @@ public class usando {
 
         if(ligar.equals("sim")){
             caixinha.Ligar();
-            System.out.println("A caixinha de som está: "+ caixinha.ligada);
+            if(caixinha.ligada){
+                status = "Ligando";
+                System.out.println(status);
+            }
         }else if(ligar.equals("nao")){
             caixinha.Desligar();
-            System.out.println("A caixinha de som está: "+ caixinha.ligada);
+            if(!caixinha.ligada){
+                status = "Desligando";
+                System.out.println(status);
+            }
+            
         }
 // ----------------------------------------------------------------------------------------
 //---------------------------VOLUME--------------------------------------------------------
@@ -45,13 +52,21 @@ public class usando {
         System.out.println("\n");
         System.out.println("Ligar Bluetooth?");
         String blue = s.nextLine();
-
+        
 
         if(blue.equals("sim")){
             caixinha.Proucurar();
-            System.out.println("Ligando bluetooth " + caixinha.bluetooth);
+            if(caixinha.bluetooth){
+                status = "Ligando Bluetooth";
+                System.out.println(status);
+            }
         }else{
-            System.out.println("Desligando bluetooth " + caixinha.bluetooth);
+            caixinha.Normal();
+            if(!caixinha.bluetooth){
+                status = "Desligando Bluetooth";
+                System.out.println(status);
+            }
+            
         }
 
 // ----------------------------------------------------------------------------------------
@@ -63,17 +78,17 @@ public class usando {
 
 
         if(pauses.equals("sim")){
-            caixinha.Proucurar();
+            caixinha.Pausar();
             if(caixinha.pause){
-                pause = "Pausando";
-                System.out.println(pause);
+                status = "Pausando";
+                System.out.println(status);
             }
                 
         }else{
-            caixinha.Normal();
+            caixinha.Continuar();
             if(!caixinha.pause){
-                pause = "Tocando";
-                System.out.println(pause);
+                status = "Tocando";
+                System.out.println(status);
             }
         }
 
