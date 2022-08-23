@@ -170,7 +170,12 @@ public class Teoria {
                 https://docs.oracle.com/javase/7/docs/api/index.html
 
 
-                java lang é a 
+                    TAGS 
+
+                    @autor  - autor do progeto 
+                    @version - versão 
+                    @since  - data do arquivo
+                    @param   - parametros
          * 
          */
     }
