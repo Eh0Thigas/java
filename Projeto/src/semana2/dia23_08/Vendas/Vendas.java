@@ -1,18 +1,23 @@
 package semana2.dia23_08.Vendas;
 
 public class Vendas {
-    String vendedor, produto;
-    double vlrProduto, salario, salariofixo, comissao;
+    String vendedor;
+    String produto;
+    double vlrProduto, salario, salariofixo, comissao , totalVendas;
     int qntVendas;
+    double percentual = (15.0 / 100.0);
 
-    public double CalComissao(int qntVendas, double vlrProduto){
-        comissao = (qntVendas * vlrProduto) * (15 / 100);
-        return comissao;
+    public void TotalVendas(){
+        totalVendas = vlrProduto * (double) qntVendas;
     }
 
-    public double CalSalario(double comissao , double salariofixo){
+    public void Comissao(){
+        comissao = totalVendas * percentual;
+    }
+
+    public void CalSalario(){
         salario = salariofixo + comissao;
-        return salario;
+       
     }
 
 }
