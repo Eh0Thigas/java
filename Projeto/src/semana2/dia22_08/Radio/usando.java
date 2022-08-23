@@ -6,6 +6,7 @@ public class usando {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Radio caixinha = new Radio();
+        String pause;
 
         System.out.println("A caixinha de som está: "+ caixinha.ligada);
         System.out.println("Volume está em: " + caixinha.volume);
@@ -58,15 +59,22 @@ public class usando {
 
         System.out.println("\n");
         System.out.println("Pause?");
-        String pause = s.nextLine();
+        String pauses = s.nextLine();
 
 
-        if(pause.equals("sim")){
+        if(pauses.equals("sim")){
             caixinha.Proucurar();
-            System.out.println("Pausando " + caixinha.pause);
+            if(caixinha.pause){
+                pause = "Pausando";
+                System.out.println(pause);
+            }
+                
         }else{
             caixinha.Normal();
-            System.out.println("Tocando " + caixinha.pause);
+            if(!caixinha.pause){
+                pause = "Tocando";
+                System.out.println(pause);
+            }
         }
 
 
