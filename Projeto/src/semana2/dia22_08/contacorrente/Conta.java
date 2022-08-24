@@ -1,3 +1,8 @@
+/*
+ * @autor Thiago Laurenti Coelho 
+ *  @version Java 11
+ *  @since 22/08/2022
+ */
 package semana2.dia22_08.contacorrente;
 
 public class Conta {

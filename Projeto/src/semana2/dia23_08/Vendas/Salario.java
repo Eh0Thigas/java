@@ -1,5 +1,12 @@
-package semana2.dia23_08.Vendas;
+/*Criar classe salario para receber as informações e gravar nas variaveis criadas na 
+classe Vendas 
 
+ *  @autor Thiago Laurenti Coelho 
+ *  @version Java 11
+ *  @since 23/08/2022
+ */
+
+package semana2.dia23_08.Vendas;
 import java.util.Scanner;
 
 public class Salario {

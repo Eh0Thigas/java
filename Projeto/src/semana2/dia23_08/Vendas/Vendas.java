@@ -1,3 +1,8 @@
+/*
+ * @autor Thiago Laurenti Coelho 
+ *  @version Java 11
+ *  @since 23/08/2022
+ */
 package semana2.dia23_08.Vendas;
 
 public class Vendas {
