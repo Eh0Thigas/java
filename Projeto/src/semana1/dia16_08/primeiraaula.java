@@ -20,7 +20,7 @@ public class primeiraaula {
         "\nCEP: " + cep +
         "\nCPF: " + cpf +
         "\nSalario: " + salario +
-        "\nPi: " + pi + "\n");
+        "\nPi: " + pi + "\n" );
         
         //TERMINAL
         System.out.println("\nNome:" + nome );
