@@ -1,0 +1,126 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "semana1.dia16_08.App",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeiraaula",
+            "request": "launch",
+            "mainClass": "semana1.dia16_08.primeiraaula",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operadores",
+            "request": "launch",
+            "mainClass": "semana1.dia17_08.Operadores",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadoresEX",
+            "request": "launch",
+            "mainClass": "semana1.dia17_08.OperadoresEX",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch conversoes",
+            "request": "launch",
+            "mainClass": "semana1.dia17_08.conversoes",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch variaveis",
+            "request": "launch",
+            "mainClass": "semana1.dia17_08.variaveis",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch BalancoTrimestral",
+            "request": "launch",
+            "mainClass": "semana1.dia18_08.BalancoTrimestral",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch condicional",
+            "request": "launch",
+            "mainClass": "semana1.dia18_08.condicional",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch repeticao",
+            "request": "launch",
+            "mainClass": "semana1.dia18_08.repeticao",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch usando",
+            "request": "launch",
+            "mainClass": "semana2.dia22_08.Radio.usando",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch aprendendoClasse",
+            "request": "launch",
+            "mainClass": "semana2.dia22_08.aprendendoClasse",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch Correntista",
+            "request": "launch",
+            "mainClass": "semana2.dia22_08.contacorrente.Correntista",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teoria",
+            "request": "launch",
+            "mainClass": "semana2.dia23_08.Teoria.Teoria",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "semana2.dia23_08.Teoria.Teste",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch Salario",
+            "request": "launch",
+            "mainClass": "semana2.dia23_08.Vendas.Salario",
+            "projectName": "Projeto_5c86b270"
+        },
+        {
+            "type": "java",
+            "name": "Launch teoria",
+            "request": "launch",
+            "mainClass": "semana2.dia24_08.teoria",
+            "projectName": "Projeto_5c86b270"
+        }
+    ]
+}

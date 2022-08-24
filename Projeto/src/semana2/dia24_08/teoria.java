@@ -16,6 +16,13 @@ public class teoria {
          *  vetor (array unidimensional)
          *  matriz (array bidimensional)
          * 
+         *  Ex: 
+         *  
+         *  String nome[0] = args [0]; os array na linha
+         *  String sobrenome = args [1]; 
+         *  int idade = Integer.valueOf(args[2]);
+         *  double altura = Double.valueOf(args[3]);
+         * 
          * 
          * 
          * 
@@ -97,6 +104,17 @@ public class teoria {
                         itens, itens [0]); //
 
          * 
+         * Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+         * Scanner scanner = new Scanner(System.in).useLocale(Locale.PTBR);
+         * 
+         * Locale.setDefault(new Locale("pt", "BR"));
+         * 
+         * 
+         * 
+         * em adicionar configurações e/ou abrir configurações
+         * voce procura as configurações do seu codigo e ja adiciona por exemplo
+         * os valores nas variavies para poupar tempo
+            "args": ["nome" , "1500" , "sabão", "5" , "10"]
          * 
          */
 
