@@ -19,11 +19,11 @@ public class teoria {
          * 
          * 
          * 
-         * 
-         * 
+         * os arquivos .class ficam na pasta bin 
+         * os executaveis
          */
 
-         
+
 
     }
 }
