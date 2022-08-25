@@ -647,7 +647,38 @@ public class TodasTeorias {
          * 
 ------------------------- Switch Case ------------------------------------
 
-            teste
+            o switch case é uma das formas de estrutura condicional onde pode 
+            ser um opção quando tem varias condições 
+            exemplo 
+            no if podemos ter varias condições porem fica muito extenco
+            ex: 
+            if(idade == 10){
+                filmes para até 10 anos
+            }else if(idade == 12){
+                filmes para até 12 anos
+            }else if(idade == 14){
+                filmes para até 14 anos
+            }else if(idade == 16){
+                filmes para até 16 anos
+            }else if(idade == 18){
+                filmes para até 18 anos
+            }
+
+            agr usando o switch case ficaria assim 
+
+            sitch(idade){
+                case 18: 
+                    filmes para até 18 anos
+                    break;
+                case 16:
+                    filmes para até 16 anos
+                case 14:
+                    filmes para até 14 anos
+                case 12:
+                    filmes para até 12 anos
+                case 10:
+                    filmes para até 10 anos
+            }
          * 
          * 
          */
