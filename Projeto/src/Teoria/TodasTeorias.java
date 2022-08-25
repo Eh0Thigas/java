@@ -644,6 +644,12 @@ public class TodasTeorias {
          * os valores nas variavies para poupar tempo
             "args": ["nome" , "1500" , "sabão", "5" , "10"]
          * 
+         * 
+------------------------- Switch Case ------------------------------------
+
+            
+         * 
+         * 
          */
 
 
