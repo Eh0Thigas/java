@@ -25,7 +25,7 @@ public class Correntista {
         System.out.println("\n");
         System.out.println("Muito bem " + nome);
 
-        conta.numeroConta =  numero.nextInt(1000);
+        conta.numeroConta =  numero.nextInt(10000);
         System.out.println("O numero da sua conta é: " + conta.numeroConta + " agência: " + conta.agencia);
         System.out.println("Saldo Disponivel: " + conta.saldo);
 
