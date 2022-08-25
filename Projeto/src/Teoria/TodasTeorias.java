@@ -247,8 +247,8 @@ public class TodasTeorias {
         }else{
             System.out.println("Autorizado a assinar");
         }
-        */
-
+        
+----------------------------------------------- LAÇOS DE REPETIÇÃO -----------------------------------------------------------------------------------
 
 
         /*
@@ -280,8 +280,16 @@ public class TodasTeorias {
             }
             System.out.println(i);
          }
+
+         FOR COM ARRAY DE STRING
          
+         String alunos = {"FELIPE", "JONAS", "JULIA", "MARCOS"};
+
+         for (int x = 0; x< alunos.length; x++){
+            System.out.println("O aluno no indice x: " + x + "é " + alunos[x]);
+         }
          
+----------------------------------------------------------- CLASSES ----------------------------------------------------------------------------------------------------------------
     
         Sempre que criamos um arquivo java, ira vir ja pé definido com 
          * o nome da classe
