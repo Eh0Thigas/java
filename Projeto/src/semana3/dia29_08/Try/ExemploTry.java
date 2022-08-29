@@ -1,4 +1,4 @@
-package semana3.dia29_08;
+package semana3.dia29_08.Try;
 
 //import java.util.InputMismatchException;
 //import java.util.Scanner;
