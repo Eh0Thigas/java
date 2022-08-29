@@ -586,7 +586,9 @@ public class TodasTeorias {
 
                 Unchecked Exceptions que geralmente são filhas de RunTimeException, onde elas 
                 ocorrem no tempo de Runtime não em design
+                RunTimeException = VOCE PODE TRATAR OU NÃO 
 
+                https://www.oracle.com/br/technical-resources/article/java/erros-java-exceptions.html
          */
 
 
