@@ -563,6 +563,23 @@ public class TodasTeorias {
                 // o bloco try, independentemente de sua conclusão
                 // ter ocorrido normalmente ou ter sido interrompida
                 } 
+
+        
+                EXEMPLO
+                
+                try{
+                    
+                    Scanner scan = new Scanner(System.in);
+                    System.out.println("Idade: " + idade);
+                    scan.close();
+                
+                }catch(InputMismatchException e){
+                
+                    // input equivicado de dados
+                    System.out.println("Os campos idade e altura precisam estar corretos");
+                
+                }
+                //importante saber que erro esta sendo disparado para o devido try
          */
 
 
