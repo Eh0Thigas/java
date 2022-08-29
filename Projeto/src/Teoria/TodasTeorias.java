@@ -580,6 +580,13 @@ public class TodasTeorias {
                 
                 }
                 //importante saber que erro esta sendo disparado para o devido try
+
+                HIERARQUIA DE EXCEÇÕES 
+                quando temos a obrigação de criar os metodos de exceções
+
+                Unchecked Exceptions que geralmente são filhas de RunTimeException, onde elas 
+                ocorrem no tempo de Runtime não em design
+
          */
 
 
