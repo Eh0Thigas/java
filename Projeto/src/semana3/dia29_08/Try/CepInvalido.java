@@ -1,7 +1,7 @@
 package semana3.dia29_08.Try;
 
 public class CepInvalido {
-    /* */
+    
     public static void main(String[] args) {
         //CRIANDO a classe de exceção
         try{
