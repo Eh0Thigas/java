@@ -7,8 +7,8 @@ public class Exemplowhile {
         
         double mesada = 50.0;
 
-            while(mesada>0){
-                double valorDoce = 8;//=  valorAleatorio();;
+            while(mesada > 0){
+                double valorDoce =  valorAleatorio();;
                 if(valorDoce > mesada){
                     valorDoce = mesada;
                 }
@@ -20,11 +20,13 @@ public class Exemplowhile {
             System.out.println("Mesada: "+ mesada);
             System.out.println("kleiton gastou a mesada inteira em doce");
 
-            /*metodo valor aleatorio
-            private stattic double valorAleatorio(){
-                return ThreadLocalRandom.current().nextDouble(2,0);
-            }
-            */
+            
 
     }
+
+    //metodo valor aleatorio
+            private static double valorAleatorio(){
+                return ThreadLocalRandom.current().nextDouble(2,0);
+            }
+            
 }
