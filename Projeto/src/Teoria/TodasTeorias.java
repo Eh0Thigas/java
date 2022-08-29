@@ -536,8 +536,33 @@ public class TodasTeorias {
                 case 10:
                     filmes para até 10 anos
             }
+         
+
+-------------------------------------------- ESTRUTURAS DE EXCEÇÔES -----------------------------------------------------------------------------------------------------
          * 
          * 
+         * Uma exceção representa uma situação que normalmente não ocorre e é algo de estranho ou inesperada
+         * 
+         * de forma interpretativa um java um erro é algo irreparavel.
+         * 
+         * uma exceção é a nossa capacidade de tentar mais uma vez, só que agora com os parametros correspondentes
+         * 
+         * java.lang.NullPointerException - quando tentanmos obter alguma informação de uma variavel nula
+         * 
+         * 
+         * 
+         * Try / catch
+         * 
+         *  try {
+                // código que inclui comandos/invocações de métodos
+                // que podem gerar uma situação de exceção.
+            } catch (error) {
+                // bloco de tratamento do erro
+            } finally {
+                // bloco de código que sempre será executado após
+                // o bloco try, independentemente de sua conclusão
+                // ter ocorrido normalmente ou ter sido interrompida
+                } 
          */
 
 
