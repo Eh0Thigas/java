@@ -365,23 +365,8 @@ public class TodasTeorias {
          *  as palavras reservadas são paçavras onde em java por exemplo
          * não poderão ser usadaspor exemplo em nomes de variaveis, metodos
          * 
-         * Abstract
-            Assert
-            Boolean
-            Break
-            Byte
-            Case
-            Catch
-            Char
-            Class
-            Const
-            Continue
-            Default
-            Do
-            Double
-            Else
-            Enum
-            Extends
+         * Abstract / Assert / Boolean / Break / Byte / Case / Catch / Char / Class / Const / Continue / Default / Do
+           Double / Else / Enum / Extends
             Final
             Finally
             Float
@@ -540,7 +525,7 @@ public class TodasTeorias {
 
          /*
          * 
-         * --------- VETORES E MATRIZES --------------
+----------------------------------------------- VETORES E MATRIZES ------------------------------------------------------------------------------------------------------------
          * 
          * VETORES 
          *  São sequencias de dados 
@@ -566,10 +551,11 @@ public class TodasTeorias {
          * 
          * 
          * 
-         *  ----- JOptionPane ------
+----------------------------------------------- JOptionPane ------------------------------------------------------------------------------------------------------------------------
          * 
          * o JOptionPane é um metodo usado para saida ou entrada de dados 
-         * JOptionPane é uma classe que possibilita a criação de uma caixa de dialogo padrão que ou solicita um valor para o usuário ou retorna uma informação. Abaixo encontra-se alguns metodos e parametros mais utilizados quando se opta pelo JOptionPane.
+         * JOptionPane é uma classe que possibilita a criação de uma caixa de dialogo padrão que ou solicita um valor para o usuário ou retorna uma informação. 
+         * Abaixo encontra-se alguns metodos e parametros mais utilizados quando se opta pelo JOptionPane.
 
             Métodos
 
@@ -581,9 +567,12 @@ public class TodasTeorias {
             Parametros
 
             Parametro	Descrição
-            parentComponent	Define a caixa de diálogo onde irá aparece todo o conteúdo. Há duas maneiras de definir a caixa de diálogo a primeira você mesmo cria utilizando os conceitos da classe JFrame. A segunda, você define esse parametro como null e o java irá gerar uma caixa de diálogo padrão.	 
+            parentComponent	Define a caixa de diálogo onde irá aparece todo o conteúdo. Há duas maneiras de definir a caixa de diálogo a primeira você mesmo cria utilizando 
+            os conceitos da classe JFrame. A segunda, você define esse parametro como null e o java irá gerar uma caixa de diálogo padrão.	 
             message	É a messagem que o usuário deve ler. Esta mensagem pode ser uma simples String ou um conjunto deobjetos.	 
-            messageType	Define o estilo da mensagem. O gerente de aparencia pode expor a caixa de dialogo de formas diferentes,dependendo deste valor, pode fornecer um icone padrão.Exemplos:
+            messageType	Define o estilo da mensagem. O gerente de aparencia pode expor a caixa de dialogo de formas diferentes,dependendo deste valor, 
+            pode fornecer um icone padrão.Exemplos:
+            
             ERROR_MESSAGE
             INFORMATION_MESSAGE
             WARNING_MESSAGE
@@ -652,7 +641,7 @@ public class TodasTeorias {
             "args": ["nome" , "1500" , "sabão", "5" , "10"]
          * 
          * 
-------------------------- Switch Case ------------------------------------
+--------------------------------------------------- Switch Case ---------------------------------------------------------------------------------------------------------------------
 
             o switch case é uma das formas de estrutura condicional onde pode 
             ser um opção quando tem varias condições 
