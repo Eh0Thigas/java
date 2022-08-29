@@ -53,9 +53,10 @@ public class TodasTeorias {
         /* Conversões (casting) 
         Upcast(implicito) - promoção de um tipo 
         DownCast - transforma uma variavel pra um tipo menor
-        */ 
+        
 
-        /* OPERADORES 
+---------------------------------------------------- OPERADORES ------------------------------------------------------------------------------------------------------------------- 
+
         ==
         != 
         <
@@ -69,7 +70,8 @@ public class TodasTeorias {
         ternarios
         
 
-        OPERADOR DE ATRIBUIÇÃO
+--------------------------------------------- OPERADOR DE ATRIBUIÇÃO ---------------------------------------------------------------------------------------------------------------
+
         simbolo de igualdade ( = )
         String nome = "Thiago"
         int idade = 20;
@@ -84,7 +86,8 @@ public class TodasTeorias {
         char sexo = 'm';
         boolean doadorOrgao = false;
          
-         OPERADORES ARITIMETICOS
+--------------------------------------- OPERADORES ARITIMETICOS -----------------------------------------------------------------------------------------------------------------
+
           são eles : + (adição); - (subtração); * (multiplicação); / (divisão); % (modulo)
 
           adição para variaveis do tipo texto concatenação
@@ -525,9 +528,9 @@ public class TodasTeorias {
                 https://docs.oracle.com/javase/7/docs/api/index.html
 
 
-                    TAGS 
+----------------------------------------- TAGS ----------------------------------------------------------------------------------------------------------------------------- 
 
-                    @autor  - autor do progeto 
+                    @autor  - autor do projeto 
                     @version - versão 
                     @since  - data do arquivo
                     @param   - parametros
