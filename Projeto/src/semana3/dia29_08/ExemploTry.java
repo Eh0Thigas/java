@@ -7,6 +7,13 @@ public class ExemploTry {
     public static void main(String[] args) {
         
         try{
+            int i = 5570;
+            i = i/0;
+        }catch(ArithmeticException e ){
+            System.out.println("Impossivel dividir por zero");
+        }
+        /* 
+        try{
 
             Scanner scan = new Scanner(System.in);
 
@@ -24,6 +31,7 @@ public class ExemploTry {
             // input equivicado de dados
             System.out.println("Os campos idade e altura precisam estar corretos");
         }
-        //importante saber que erro esta sendo disparado para o devido try
+        importante saber que erro esta sendo disparado para o devido try
+        */
     }
 }

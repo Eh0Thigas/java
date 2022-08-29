@@ -548,7 +548,7 @@ public class TodasTeorias {
          * uma exceção é a nossa capacidade de tentar mais uma vez, só que agora com os parametros correspondentes
          * 
          * java.lang.NullPointerException - quando tentanmos obter alguma informação de uma variavel nula
-         * 
+         * java.lang.AritimeticException  - quando tentamos dividir um numero por zero
          * 
          * 
          * Try / catch
