@@ -21,8 +21,8 @@ public class ExemploTry {
 
         }catch(InputMismatchException e){
             // input equivicado de dados
-            System.out.println("Os campos idade e altura precisam");
+            System.out.println("Os campos idade e altura precisam estar corretos");
         }
-        //importante saber que 
+        //importante saber que erro esta sendo disparado para o devido try
     }
 }
