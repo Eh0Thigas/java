@@ -1,7 +1,7 @@
 package semana3.dia29_08;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
+//import java.util.InputMismatchException;
+//import java.util.Scanner;
 
 public class ExemploTry {
     public static void main(String[] args) {
