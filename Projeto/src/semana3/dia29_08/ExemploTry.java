@@ -18,6 +18,7 @@ public class ExemploTry {
 
             System.out.println("Nome: " + nome);
             System.out.println("Idade: " + idade);
+            scan.close();
 
         }catch(InputMismatchException e){
             // input equivicado de dados
