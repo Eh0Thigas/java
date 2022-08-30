@@ -589,7 +589,13 @@ public class TodasTeorias {
                 RunTimeException = VOCE PODE TRATAR OU NÃO 
 
                 https://www.oracle.com/br/technical-resources/article/java/erros-java-exceptions.html
-         */
+         
+         
+         
+------------------------------------------------- ORIENTAÇÃO A OBJETO -------------------------------------------------------------------------------------------------------------
+                
+         
+                */
 
 
 
