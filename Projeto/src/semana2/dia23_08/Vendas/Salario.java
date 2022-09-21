@@ -55,5 +55,9 @@ public class Salario {
         System.out.println("Valor total de vendas de " + vendas.produto + ": " + vendas.totalVendas);
         System.out.println("Comissão do/da " + vendas.vendedor + ": " + vendas.comissao);
         System.out.println("Salario final nesse mes do " + vendas.vendedor + ": " + vendas.salario + "\n ");
+
+        s.close();
+        c.close();
     }
+
 }

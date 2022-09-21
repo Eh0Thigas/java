@@ -70,6 +70,6 @@ public class jogo {
             }
 
         }while(jogo !=3);
-
+        s.close();
     }
 }
