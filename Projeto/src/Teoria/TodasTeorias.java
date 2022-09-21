@@ -595,7 +595,23 @@ public class TodasTeorias {
 ------------------------------------------------- ORIENTAÇÃO A OBJETO -------------------------------------------------------------------------------------------------------------
                 
 
-                    
+                    equals() e hashCode()
+                    contains 
+
+                    EXEMPLO:
+                        List<Carro> listaCarros = new ArrayList<>();
+                        
+                        listaCarros.add(new Carro("Ford"));
+                        listaCarros.add(new Carro("Chevrolet"));
+                        listaCarros.add(new Carro("Fiat"));
+
+                        system.out.println(listaCarros.contains(new Carro("Ford")));
+                        system.out.println(new Carro("Ford").hashCode());
+
+                        Carro carro1 = new Carro("Ford");
+                        Carro carro2 = new Carro("Chevrolet");
+
+                        System.out.println()
          
                 */
 
