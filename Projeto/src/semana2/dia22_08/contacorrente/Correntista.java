@@ -60,7 +60,7 @@ public class Correntista {
 
         }while(acao !=4);
         
-      
+        s.close();
 
 
     }
